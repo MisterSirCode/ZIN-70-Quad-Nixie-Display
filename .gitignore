@@ -27,7 +27,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
-/Gerbers-Round
+/Gerbers*
 /Gerbers
 ~ZIN70 Nixie Clock.kicad_pcb.lck
 ~ZIN70 Nixie Clock.kicad_sch.lck

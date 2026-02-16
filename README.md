@@ -38,3 +38,4 @@ Registers:
 * 1x CD40109BPWRE4 TSSOP-16 4bit 3V to 18V Level Converter
     - Configured for 3.3V to 12V conversion specifically for ESP32. Adjust Vcc and Vdd as required.
 * 2x HV5122 PQFP-44 32bit HV Registers (220V 100mA Drains)
+    - Custom symbol/package configured. 
