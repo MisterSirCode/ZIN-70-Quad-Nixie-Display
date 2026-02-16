@@ -29,3 +29,5 @@ fp-info-cache
 *.csv
 /Gerbers-Round
 /Gerbers
+~ZIN70 Nixie Clock.kicad_pcb.lck
+~ZIN70 Nixie Clock.kicad_sch.lck
