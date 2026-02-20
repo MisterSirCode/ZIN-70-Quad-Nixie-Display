@@ -268,6 +268,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Logic_LevelTranslator:CD40109BPW"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -630,6 +755,117 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "NE-2_5mm_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "NE1"
+				(at 0 3.556 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NE-2"
+				(at 0 1.016 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Footprint" "NixFootprints:NE-2_5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.001 0.001)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Size" "5mm"
+				(at 0 -1.016 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(symbol "NE-2_5mm_2_0_1"
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NE-2_5mm_2_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 0 0)
 							)
 						)
 					)
@@ -1438,6 +1674,117 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "NixSymbols:NE-2_5mm"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "NE1"
+				(at 0 3.556 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NE-2"
+				(at 0 1.016 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Footprint" "NixFootprints:NE-2_5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.001 0.001)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Size" "5mm"
+				(at 0 -1.016 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(symbol "NE-2_5mm_0_1"
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NE-2_5mm_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "NixSymbols:ZIN-70_Z5680M_Pinout"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1974,6 +2321,12 @@
 		(uuid "02afd485-74df-45e8-bad1-b9b1f521c73c")
 	)
 	(junction
+		(at 59.69 15.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2efeb281-fd0d-4b41-92c8-14c12934bf94")
+	)
+	(junction
 		(at 118.11 15.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1990,6 +2343,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4224a1a7-7e9d-460b-a7ec-088bcc757ebf")
+	)
+	(junction
+		(at 139.7 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43a6cfae-062b-4019-8398-5869e3e65150")
 	)
 	(junction
 		(at 96.52 125.73)
@@ -2010,10 +2369,28 @@
 		(uuid "7146c93d-7282-42b3-8ca4-756fa532b0d4")
 	)
 	(junction
+		(at 63.5 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c9b50a0-04c1-440b-a8bd-0c64b2a7af30")
+	)
+	(junction
 		(at 76.2 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82a936b2-4ee9-48d3-841a-b200af73e2ac")
+	)
+	(junction
+		(at 132.08 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8acce332-0289-43b8-bccf-e30837b6d6e1")
+	)
+	(junction
+		(at 135.89 15.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9beef74b-e1fa-4be1-a653-6f69be2a725e")
 	)
 	(junction
 		(at 104.14 87.63)
@@ -2022,10 +2399,28 @@
 		(uuid "adfe9c11-aa20-4353-8030-6c52bb498226")
 	)
 	(junction
+		(at 55.88 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7f7494a-1f81-41ff-a4b3-72ef706b3e49")
+	)
+	(junction
+		(at 59.69 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9d053f7-3434-4c40-b7bf-ae90d916011c")
+	)
+	(junction
 		(at 111.76 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9e8ac28-99c0-4222-8079-33366c412ac2")
+	)
+	(junction
+		(at 135.89 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfe7064c-aca2-4538-b8d4-b1246894c1b4")
 	)
 	(junction
 		(at 93.98 125.73)
@@ -2283,6 +2678,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 48.26) (xy 139.7 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "200c65fb-a669-4bfb-9f72-ec94b36d0679")
+	)
+	(wire
+		(pts
 			(xy 58.42 82.55) (xy 160.02 82.55)
 		)
 		(stroke
@@ -2360,6 +2765,16 @@
 			(type default)
 		)
 		(uuid "252d944b-8431-4fba-8d44-905caa23477e")
+	)
+	(wire
+		(pts
+			(xy 55.88 38.1) (xy 59.69 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26559997-51d1-4fea-bcd1-206ac3229ae1")
 	)
 	(wire
 		(pts
@@ -2550,6 +2965,16 @@
 			(type default)
 		)
 		(uuid "472f54dc-6ef6-4f66-bf48-206c86092057")
+	)
+	(wire
+		(pts
+			(xy 132.08 43.18) (xy 132.08 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a294ea-e533-4cc4-a8bb-13827c6df2ef")
 	)
 	(wire
 		(pts
@@ -2763,7 +3188,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 15.24) (xy 76.2 15.24)
+			(xy 41.91 15.24) (xy 59.69 15.24)
 		)
 		(stroke
 			(width 0)
@@ -2923,7 +3348,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 15.24) (xy 152.4 15.24)
+			(xy 118.11 15.24) (xy 135.89 15.24)
 		)
 		(stroke
 			(width 0)
@@ -2970,6 +3395,16 @@
 			(type default)
 		)
 		(uuid "875d8c67-e5ef-4045-becd-5e31eb10dbcd")
+	)
+	(wire
+		(pts
+			(xy 55.88 43.18) (xy 55.88 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bf3e823-8c5a-4a4a-9212-806091b39e47")
 	)
 	(wire
 		(pts
@@ -3043,6 +3478,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 43.18) (xy 63.5 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9178b1f4-5f2d-473f-8629-db0ced57f6f1")
+	)
+	(wire
+		(pts
 			(xy 93.98 128.27) (xy 93.98 125.73)
 		)
 		(stroke
@@ -3050,6 +3495,16 @@
 			(type default)
 		)
 		(uuid "93445c44-d03c-4503-bd68-b639dc23e598")
+	)
+	(wire
+		(pts
+			(xy 59.69 15.24) (xy 76.2 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9453b439-7f36-44ab-87da-01837a433cd9")
 	)
 	(wire
 		(pts
@@ -3173,6 +3628,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 38.1) (xy 135.89 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad9fae38-ea4b-493f-93a3-8cb58c8f8e53")
+	)
+	(wire
+		(pts
 			(xy 83.82 46.99) (xy 64.77 46.99)
 		)
 		(stroke
@@ -3293,6 +3758,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 15.24) (xy 152.4 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7689e20-0e95-42c4-ab4f-ced4563d8e3a")
+	)
+	(wire
+		(pts
 			(xy 104.14 100.33) (xy 104.14 95.25)
 		)
 		(stroke
@@ -3373,6 +3848,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 15.24) (xy 135.89 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf241c0a-97cd-4d0c-9504-9b2b7ed892d6")
+	)
+	(wire
+		(pts
 			(xy 73.66 118.11) (xy 73.66 128.27)
 		)
 		(stroke
@@ -3400,6 +3885,16 @@
 			(type default)
 		)
 		(uuid "d1c1800d-f614-4098-856e-afc2c2376e97")
+	)
+	(wire
+		(pts
+			(xy 59.69 15.24) (xy 59.69 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f66adc-95c6-4541-95b2-e54c8ffc76c6")
 	)
 	(wire
 		(pts
@@ -3490,6 +3985,26 @@
 			(type default)
 		)
 		(uuid "e4277f66-6533-4ffc-b1a4-ec54e6847cb6")
+	)
+	(wire
+		(pts
+			(xy 139.7 38.1) (xy 135.89 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5cf7aa8-e57c-48ab-add2-5b7a00d89c9e")
+	)
+	(wire
+		(pts
+			(xy 59.69 38.1) (xy 63.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e61b8c08-38db-4a55-8de9-dc19d007bd65")
 	)
 	(wire
 		(pts
@@ -3787,7 +4302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "109afa2b-9f04-45e9-b05e-6b1016a48971")
-		(property "Reference" "R10"
+		(property "Reference" "R14"
 			(at 86.36 132.0799 0)
 			(effects
 				(font
@@ -3841,7 +4356,7 @@
 		(instances
 			(project "ZIN70 Nixie Clock"
 				(path "/a8c78934-23a1-4cf6-b942-8d1ef6ada9e8"
-					(reference "R10")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3958,6 +4473,87 @@
 			(project "ZIN70 Nixie Clock"
 				(path "/a8c78934-23a1-4cf6-b942-8d1ef6ada9e8"
 					(reference "NIX2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "NE-2_5mm_2")
+		(lib_id "NixSymbols:NE-2_5mm")
+		(at 135.89 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28b96574-faac-4f89-95e0-91b0b716ba2a")
+		(property "Reference" "NE2"
+			(at 135.89 46.736 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "NE-2"
+			(at 135.89 44.196 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "NixFootprints:NE-2_5mm"
+			(at 135.89 43.18 0)
+			(effects
+				(font
+					(size 0.001 0.001)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "5mm"
+			(at 135.89 42.164 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(pin ""
+			(uuid "4999cf1d-53b3-4ef8-97fd-716baa9eb5d0")
+		)
+		(pin ""
+			(uuid "116bb9ed-c80e-478f-a5c8-5634ac937698")
+		)
+		(instances
+			(project "ZIN70 Nixie Clock"
+				(path "/a8c78934-23a1-4cf6-b942-8d1ef6ada9e8"
+					(reference "NE2")
 					(unit 1)
 				)
 			)
@@ -4587,7 +5183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4598177a-a459-4968-ab1e-cdfda9fbe549")
-		(property "Reference" "R9"
+		(property "Reference" "R13"
 			(at 83.82 132.0799 0)
 			(effects
 				(font
@@ -4641,7 +5237,7 @@
 		(instances
 			(project "ZIN70 Nixie Clock"
 				(path "/a8c78934-23a1-4cf6-b942-8d1ef6ada9e8"
-					(reference "R9")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4767,7 +5363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "528aa15a-9f6f-4798-ba34-8e93c1c471fc")
-		(property "Reference" "R5"
+		(property "Reference" "R12"
 			(at 92.71 92.7099 0)
 			(effects
 				(font
@@ -4821,7 +5417,7 @@
 		(instances
 			(project "ZIN70 Nixie Clock"
 				(path "/a8c78934-23a1-4cf6-b942-8d1ef6ada9e8"
-					(reference "R5")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4836,7 +5432,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f22e1db-3faf-41f8-b54e-4ba713b780e1")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 73.66 118.11 0)
 			(effects
 				(font
@@ -4887,7 +5483,7 @@
 		(instances
 			(project "ZIN70 Nixie Clock"
 				(path "/a8c78934-23a1-4cf6-b942-8d1ef6ada9e8"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4903,7 +5499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6726622c-0277-4a22-8079-868c6c52cebc")
-		(property "Reference" "R6"
+		(property "Reference" "R11"
 			(at 100.33 91.4399 0)
 			(effects
 				(font
@@ -4957,7 +5553,7 @@
 		(instances
 			(project ""
 				(path "/a8c78934-23a1-4cf6-b942-8d1ef6ada9e8"
-					(reference "R6")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4973,7 +5569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69a4d260-3053-436b-8108-40a991bcaea5")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 82.55 92.7099 0)
 			(effects
 				(font
@@ -5027,7 +5623,7 @@
 		(instances
 			(project ""
 				(path "/a8c78934-23a1-4cf6-b942-8d1ef6ada9e8"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5043,7 +5639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f0a4c81-659e-45c4-9f0b-6a82cb7b755c")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at 158.75 87.6299 0)
 			(effects
 				(font
@@ -5097,7 +5693,77 @@
 		(instances
 			(project "ZIN70 Nixie Clock"
 				(path "/a8c78934-23a1-4cf6-b942-8d1ef6ada9e8"
-					(reference "C2")
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 55.88 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72cb85c9-4aca-46d0-b0d3-f259b645a2cb")
+		(property "Reference" "R5"
+			(at 53.34 41.9101 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "100K"
+			(at 54.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 55.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76d31aae-0628-4e0c-b226-75bdcefb75b6")
+		)
+		(pin "2"
+			(uuid "446f9465-b164-408b-809b-5999b01a085a")
+		)
+		(instances
+			(project ""
+				(path "/a8c78934-23a1-4cf6-b942-8d1ef6ada9e8"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5112,7 +5778,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "761cd65d-f6db-4d9b-be8e-43ab4b899995")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR05"
 			(at 73.66 113.03 0)
 			(effects
 				(font
@@ -5163,7 +5829,7 @@
 		(instances
 			(project ""
 				(path "/a8c78934-23a1-4cf6-b942-8d1ef6ada9e8"
-					(reference "#PWR02")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5230,6 +5896,76 @@
 			(project "ZIN70 Nixie Clock"
 				(path "/a8c78934-23a1-4cf6-b942-8d1ef6ada9e8"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 132.08 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86806392-77d9-4073-9842-1de5b8942561")
+		(property "Reference" "R7"
+			(at 129.54 41.9101 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "100K"
+			(at 130.81 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 132.08 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "114a4af3-27dd-4775-94d6-5d37ccb96561")
+		)
+		(pin "2"
+			(uuid "13ec70d8-2b9d-478a-bdfc-6f6922996d3f")
+		)
+		(instances
+			(project "ZIN70 Nixie Clock"
+				(path "/a8c78934-23a1-4cf6-b942-8d1ef6ada9e8"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5381,7 +6117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91b6ed03-266e-48c9-b48d-eed92f3dca3a")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 76.2 96.52 0)
 			(effects
 				(font
@@ -5431,7 +6167,7 @@
 		(instances
 			(project ""
 				(path "/a8c78934-23a1-4cf6-b942-8d1ef6ada9e8"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5447,7 +6183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0363da3-bd43-4cb7-bc03-52e02e6b08d4")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 115.57 115.57 0)
 			(effects
 				(font
@@ -5498,7 +6234,87 @@
 		(instances
 			(project "ZIN70 Nixie Clock"
 				(path "/a8c78934-23a1-4cf6-b942-8d1ef6ada9e8"
-					(reference "#PWR07")
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NixSymbols:NE-2_5mm")
+		(at 59.69 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6e0286d-2bdf-4acb-8be7-960c20864339")
+		(property "Reference" "NE1"
+			(at 59.69 46.736 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "NE-2"
+			(at 59.69 44.196 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "NixFootprints:NE-2_5mm"
+			(at 59.69 43.18 0)
+			(effects
+				(font
+					(size 0.001 0.001)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "5mm"
+			(at 59.69 42.164 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(pin ""
+			(uuid "e6fbed6d-9d0e-4d8f-b40b-ecddba2df0e0")
+		)
+		(pin ""
+			(uuid "7130e1c1-21f7-47f8-8ad8-99daaaf75f7b")
+		)
+		(instances
+			(project ""
+				(path "/a8c78934-23a1-4cf6-b942-8d1ef6ada9e8"
+					(reference "NE1")
 					(unit 1)
 				)
 			)
@@ -5514,7 +6330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aae794e2-a940-4c80-a4f8-3c3d5c2595dc")
-		(property "Reference" "R11"
+		(property "Reference" "R15"
 			(at 88.9 132.0799 0)
 			(effects
 				(font
@@ -5568,7 +6384,7 @@
 		(instances
 			(project "ZIN70 Nixie Clock"
 				(path "/a8c78934-23a1-4cf6-b942-8d1ef6ada9e8"
-					(reference "R11")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -5639,6 +6455,147 @@
 			(project "ZIN70 Nixie Clock"
 				(path "/a8c78934-23a1-4cf6-b942-8d1ef6ada9e8"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 139.7 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b56cb18d-1d42-4d56-8c7b-b65989cbeaf9")
+		(property "Reference" "R8"
+			(at 137.16 41.9101 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "100K"
+			(at 140.97 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 139.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10e79ab2-9a7c-41e3-a331-7b876dc1fad1")
+		)
+		(pin "2"
+			(uuid "4b9726c0-9ab9-4731-8803-7b9364768afc")
+		)
+		(instances
+			(project "ZIN70 Nixie Clock"
+				(path "/a8c78934-23a1-4cf6-b942-8d1ef6ada9e8"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 63.5 40.64 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8e77687-90d5-48c2-98b4-ffba108906b4")
+		(property "Reference" "R6"
+			(at 66.04 41.9101 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "100K"
+			(at 64.77 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 63.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6a5aadc-b129-4e22-8148-947acb8cb429")
+		)
+		(pin "2"
+			(uuid "a513a77a-b7c7-4a18-9752-d6a06d010921")
+		)
+		(instances
+			(project "ZIN70 Nixie Clock"
+				(path "/a8c78934-23a1-4cf6-b942-8d1ef6ada9e8"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5840,7 +6797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c88c4330-6586-4e4f-8476-be21fa9a47b3")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 114.3 86.3599 0)
 			(effects
 				(font
@@ -5894,7 +6851,7 @@
 		(instances
 			(project "ZIN70 Nixie Clock"
 				(path "/a8c78934-23a1-4cf6-b942-8d1ef6ada9e8"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5976,7 +6933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dce7f427-8087-4d9c-8680-e51278bf2638")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR01"
 			(at 45.72 15.24 0)
 			(effects
 				(font
@@ -6027,7 +6984,7 @@
 		(instances
 			(project "ZIN70 Nixie Clock"
 				(path "/a8c78934-23a1-4cf6-b942-8d1ef6ada9e8"
-					(reference "#PWR03")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -6109,7 +7066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebeec642-1286-4506-aa08-db731cc9a96f")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR03"
 			(at 154.94 99.06 0)
 			(effects
 				(font
@@ -6159,7 +7116,7 @@
 		(instances
 			(project "ZIN70 Nixie Clock"
 				(path "/a8c78934-23a1-4cf6-b942-8d1ef6ada9e8"
-					(reference "#PWR05")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6175,7 +7132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef6edf6a-5a81-40c6-9a77-47a4bccb5341")
-		(property "Reference" "R12"
+		(property "Reference" "R16"
 			(at 91.44 132.0799 0)
 			(effects
 				(font
@@ -6229,7 +7186,7 @@
 		(instances
 			(project "ZIN70 Nixie Clock"
 				(path "/a8c78934-23a1-4cf6-b942-8d1ef6ada9e8"
-					(reference "R12")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -6245,7 +7202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3b7b715-98c6-4966-8596-270f07e447f9")
-		(property "Reference" "R7"
+		(property "Reference" "R10"
 			(at 106.68 90.1699 0)
 			(effects
 				(font
@@ -6299,7 +7256,7 @@
 		(instances
 			(project "ZIN70 Nixie Clock"
 				(path "/a8c78934-23a1-4cf6-b942-8d1ef6ada9e8"
-					(reference "R7")
+					(reference "R10")
 					(unit 1)
 				)
 			)
