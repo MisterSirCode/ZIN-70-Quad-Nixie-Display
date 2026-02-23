@@ -19,6 +19,8 @@ Mechanical and Connectors:
 
 Tubes:
 * 4x Millclock `ZIN-70` Nixie Tubes (Z5680M Pinout) - 170V ~5mA each
+* 1x NE-2 5mm "Daytime" Indicator (I used a yellow phosphor Mercury/Argon tube)
+* 1x NE-2 5mm "Nighttime" Indicator (I used a blue phosphor Mercury/Argon Tube)
 
 Passives:
 * 4x 6.8kR 1206(in) SMD Current-Limiting Power Resistors (Nixie Tubes)
