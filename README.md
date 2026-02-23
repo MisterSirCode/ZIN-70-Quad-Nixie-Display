@@ -38,9 +38,10 @@ Driver:
 * 1x Murata `OKI-78SR-12/1.0-W36-C` 18-12V DC-DC Converter 
     - Custom footprint for this device. Swap or remove as required
 * 1x WaveShare `RP2040-Tiny` devboard 
-    - Custom footprint. SWAP FOR YOUR DRIVER. They are unlikely to match
+    - Custom footprint. Please swap for your driver. Only compatible with 23-pin 2.54mm pitch RP2040 tinies.
+    - Buy directly from waveshare if you want to avoid incompatibility.
 
-Registers:
+Registers and Chips:
 * 1x Texas Instruments `CD40109BPWRE4` TSSOP-16 4bit 3V to 18V Level Converter
     - Configured for 3.3V to 12V conversion specifically for ESP32. Adjust Vcc and Vdd as required.
 * 2x Microchip Tech. `HV5122` PQFP-44 32bit HV Registers (220V 100mA Drains)
