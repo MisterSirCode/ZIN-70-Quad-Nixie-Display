@@ -31,3 +31,6 @@ fp-info-cache
 /Gerbers
 ~ZIN70 Nixie Clock.kicad_pcb.lck
 ~ZIN70 Nixie Clock.kicad_sch.lck
+
+# other
+*.lck
