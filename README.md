@@ -27,6 +27,8 @@ Passives:
 * 8x 1kR 1206(in) SMD Current-Limiting Signal Resistors (Outputs)
 * 4x 200kR 1206(in) SMD Current-Limiting Power Resistors (Indicator Swapper)
 * 2x 100nF 1206(in) SMD Decoupling Capacitors
+* 2x 1uF 1206(in) SMD Filter Capacitors
+* 2x 10k 1206(in) SMD Filter Resistors
 
 HV Boost Supply:
 * 1x Omnixie `NCH8200HV` (12V to 170V 30mA)
